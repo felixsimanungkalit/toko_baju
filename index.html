@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lix Distro - Premium Fashion Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body class="bg-light">
+    <!-- Promo Bar -->
+    <div class="bg-black text-white py-2 text-center small">
+      <div class="container">
+        <span class="badge bg-danger me-2">HOT</span>
+        FREE Shipping for orders over Rp 500.000 | Use code: <strong>LIXFREE</strong>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="#">
+          <i class="fas fa-tshirt me-2"></i>LIX DISTRO
+        </a>
+        <div class="d-flex order-lg-2 ms-auto">
+          <a href="#" class="btn btn-outline-light btn-sm mx-1"><i class="fas fa-search"></i></a>
+          <a href="#" class="btn btn-outline-light btn-sm mx-1"><i class="fas fa-user"></i></a>
+          <a href="#" class="btn btn-outline-light btn-sm mx-1 position-relative">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              3
+            </span>
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-2">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="products.html">Shop</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">New Arrivals</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-dark text-white py-5 mb-5">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="display-4 fw-bold mb-4">Elevate Your Style</h1>
+            <p class="lead mb-4">Premium fashion for the modern individual</p>
+            <a href="products.html" class="btn btn-danger btn-lg px-4 me-2">Shop Now</a>
+            <a href="#" class="btn btn-outline-light btn-lg px-4">New Arrivals</a>
+          </div>
+          <div class="col-lg-6 d-none d-lg-block">
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="img-fluid rounded shadow" alt="Fashion Collection">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="container mb-5">
+      <h2 class="text-center mb-4 fw-bold">Shop Categories</h2>
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm h-100">
+            <img src="https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Men's Wear">
+            <div class="card-body text-center">
+              <h5 class="card-title">Men's Collection</h5>
+              <a href="#" class="btn btn-outline-dark mt-2">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm h-100">
+            <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Women's Wear">
+            <div class="card-body text-center">
+              <h5 class="card-title">Women's Collection</h5>
+              <a href="#" class="btn btn-outline-dark mt-2">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm h-100">
+            <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Accessories">
+            <div class="card-body text-center">
+              <h5 class="card-title">Accessories</h5>
+              <a href="#" class="btn btn-outline-dark mt-2">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured Products -->
+    <div class="container mb-5">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold mb-0">Featured Products</h2>
+        <a href="products.html" class="btn btn-sm btn-outline-danger">View All</a>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <span class="position-absolute top-0 end-0 bg-danger text-white px-2 py-1 m-2 small rounded">20% OFF</span>
+            <img src="img/gambar1.png" class="card-img-top" alt="Premium T-Shirt">
+            <div class="card-body">
+              <h5 class="card-title">Premium T-Shirt</h5>
+              <div class="text-warning mb-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span class="text-muted small ms-1">(24)</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <span class="fw-bold text-danger">Rp 120.000</span>
+                  <span class="text-decoration-line-through text-muted small ms-2">Rp 150.000</span>
+                </div>
+                <a href="#" class="btn btn-sm btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="img/celana2.jpg" class="card-img-top" alt="Slim Fit Jeans">
+            <div class="card-body">
+              <h5 class="card-title">Slim Fit Jeans</h5>
+              <div class="text-warning mb-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span class="text-muted small ms-1">(18)</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold">Rp 350.000</span>
+                <a href="#" class="btn btn-sm btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <span class="position-absolute top-0 end-0 bg-danger text-white px-2 py-1 m-2 small rounded">15% OFF</span>
+            <img src="img/gambar3.jpg" class="card-img-top" alt="Urban Hoodie">
+            <div class="card-body">
+              <h5 class="card-title">Urban Hoodie</h5>
+              <div class="text-warning mb-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span class="text-muted small ms-1">(32)</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <span class="fw-bold text-danger">Rp 212.500</span>
+                  <span class="text-decoration-line-through text-muted small ms-2">Rp 250.000</span>
+                </div>
+                <a href="#" class="btn btn-sm btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="img/gambar4.jpg" class="card-img-top" alt="Snapback Cap">
+            <div class="card-body">
+              <h5 class="card-title">Snapback Cap</h5>
+              <div class="text-warning mb-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span class="text-muted small ms-1">(15)</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold">Rp 120.000</span>
+                <a href="#" class="btn btn-sm btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="container mb-5">
+      <div class="bg-danger text-white rounded-3 overflow-hidden">
+        <div class="row align-items-center">
+          <div class="col-md-6 p-4 p-md-5">
+            <h2 class="fw-bold">Summer Sale!</h2>
+            <p class="lead">Up to 50% off on selected items</p>
+            <p class="small">Limited time offer. Don't miss out!</p>
+            <a href="#" class="btn btn-light btn-lg mt-2">Shop Now</a>
+          </div>
+          <div class="col-md-6 d-none d-md-block">
+            <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="img-fluid" alt="Summer Sale">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="container mb-5">
+      <h2 class="text-center mb-4 fw-bold">What Our Customers Say</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center p-4">
+              <img src="https://randomuser.me/api/portraits/women/32.jpg" class="rounded-circle mb-3" width="80" alt="Customer">
+              <div class="text-warning mb-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="card-text mb-4">"The quality is amazing! I've bought several items and they've all exceeded my expectations."</p>
+              <h6 class="fw-bold mb-1">Sarah Johnson</h6>
+              <small class="text-muted">Jakarta</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center p-4">
+              <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle mb-3" width="80" alt="Customer">
+              <div class="text-warning mb-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <p class="card-text mb-4">"Fast shipping and excellent service. The jeans fit perfectly and are very comfortable."</p>
+              <h6 class="fw-bold mb-1">David Wilson</h6>
+              <small class="text-muted">Bandung</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center p-4">
+              <img src="https://randomuser.me/api/portraits/women/63.jpg" class="rounded-circle mb-3" width="80" alt="Customer">
+              <div class="text-warning mb-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="card-text mb-4">"I love the unique designs! Always get compliments when I wear Lix Distro."</p>
+              <h6 class="fw-bold mb-1">Lisa Chen</h6>
+              <small class="text-muted">Surabaya</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="bg-dark text-white py-5 mb-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="fw-bold mb-3">Join Our Newsletter</h2>
+            <p class="mb-4">Subscribe for exclusive offers and fashion updates</p>
+            <div class="input-group mb-3 mx-auto" style="max-width: 500px;">
+              <input type="email" class="form-control" placeholder="Your email address">
+              <button class="btn btn-danger" type="button">Subscribe</button>
+            </div>
+            <small class="text-white-50">We'll never share your email.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white pt-5 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <h4 class="fw-bold mb-3"><i class="fas fa-tshirt me-2"></i>LIX DISTRO</h4>
+            <p class="text-white-50">Premium fashion for the modern individual since 2015.</p>
+            <div class="mt-3">
+              <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2 mb-4">
+            <h5 class="fw-bold mb-3">Shop</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Men</a></li>
+              <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Women</a></li>
+              <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Accessories</a></li>
+              <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">New Arrivals</a></li>
+              <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Sale</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-lg-2 mb-4">
+            <h5 class="fw-bold mb-3">Help</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">FAQs</a></li>
+              <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Shipping</a></li>
+              <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Returns</a></li>
+              <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Size Guide</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-lg-4 mb-4">
+            <h5 class="fw-bold mb-3">Contact</h5>
+            <ul class="list-unstyled text-white-50">
+              <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i>Jakarta, Indonesia</li>
+              <li class="mb-2"><i class="fas fa-phone-alt me-2"></i>+62 123 4567 890</li>
+              <li class="mb-2"><i class="fas fa-envelope me-2"></i>info@lixdistro.com</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4">
+        <div class="row">
+          <div class="col-md-6 mb-3 mb-md-0">
+            <p class="mb-0 text-white-50 small">&copy; 2023 Lix Distro. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <a href="#" class="text-white-50 small text-decoration-none me-3">Privacy</a>
+            <a href="#" class="text-white-50 small text-decoration-none me-3">Terms</a>
+            <a href="#" class="text-white-50 small text-decoration-none">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
